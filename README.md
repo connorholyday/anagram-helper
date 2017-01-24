@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a simple ReactJS build that helps you create anagrams for words.
 
+Click here for a [live example](https://connorholyday.github.io/anagram-helper/)
+
 ![Image preview of the build](./anagram.png)
 
 Inspired by a tweet from:
