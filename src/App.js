@@ -48,7 +48,7 @@ class App extends Component {
 		this.cache = this.state.input.toLowerCase().split('');
 
 		return (
-			this.state.anagramOf.split('').map( (letter, i) => this.checkLetter(letter, i) )
+			this.state.anagramOf.toLowerCase().split('').map( (letter, i) => this.checkLetter(letter, i) )
 		);
 	}
 
