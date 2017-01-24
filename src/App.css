@@ -1,0 +1,40 @@
+:root {
+	--active: #333;
+	--inactive: #999;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+	height: 110px;
+	font-size: 6rem;
+	text-transform: uppercase;
+}
+
+.is-active {
+	color: var(--active);
+}
+
+.is-inactive {
+	color: var(--inactive);
+}
+
+input {
+	display: block;
+	width: 200px;
+	margin: 0 auto 2rem;
+
+	outline: 0;
+	border: 0;
+	border-bottom: 1px solid var(--inactive);
+
+	font-size: 2rem;
+	color: var(--inactive);
+}
+
+input:focus {
+	border-color: var(--active);
+	color: var(--active);
+}
